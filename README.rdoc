@@ -1,0 +1,23 @@
+= Pedro Del Gallego Dot Files
+
+I tried my best to keep my box the way I like it. 
+
+
+== Installation
+
+  git clone git://github.com/pedrodelgallego/dotfiles ~/.dotfiles
+  cd ~/.dotfiles
+  rake install
+
+
+== Environment
+
+I am running on Ubuntu/Linux 10.04, but it will likely work on Linux Distribution or Mac OS X as well with minor modifications. 
+
+To switch to zsh you can use the next command:
+
+  chsh -s /bin/zsh
+
+== Features
+
+Comming Soon. 

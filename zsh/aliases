@@ -1,0 +1,71 @@
+alias github="cd ~/github"
+# cd
+alias ..='cd ..'
+
+# ls
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'
+
+# git
+alias gl='git pull'
+alias gp='git push'
+alias gd='git diff'
+alias gc='git commit -m'
+alias gca='git commit -a'
+alias gco='git checkout'
+alias gb='git branch'
+alias gs='git status'
+alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+
+# heroku
+alias h='~/heroku/'
+alias h-p='git push heroku master'
+alias o-p='git push origin master'
+
+# rails
+alias sc='rails console'
+alias ss='rails server'
+alias sdb='rails dbconsole'
+alias sg='rails g '
+
+alias a='autotest'
+alias tlog='tail -f log/development.log'
+alias scaffold='script/generate nifty_scaffold'
+alias migrate='rake db:migrate db:test:clone'
+alias rst='touch tmp/restart.txt'
+alias seed='rake db:seed'
+alias remigrate="migrate VERSION=0;migrate"
+alias routes="rake routes"
+
+# "~/github/social-design-pattern"
+alias e="emacsclient -c  . &"
+alias t="touch"
+alias g="~/github" 
+alias s="~/gsoc/2010" 
+alias d="~/djangy"
+alias k="~/code/katas"
+alias f="~/importante/facultad"        
+
+# common misspelling
+alias mkidr="mkdir"
+alias mkdri="mkdir"
+alias %=' '
+
+# speed up
+alias ik='~/github/ioke/bin/ioke'
+alias msr='mysql -u root -p'
+
+# GSOC 2010
+alias sputnik='~/gsoc/2010/sputnik/' 
+alias test_v8='python tools/sputnik.py --command ~/gsoc/2010/v8-read-only/d8_g'
+alias d8='~/gsoc/2010/v8-read-only/d8_g'
+alias v8='~/gsoc/2010/v8-read-only/'
+
+# Clojure 
+#alias lein="~/.m2/repository/leiningen/leiningen/1.2.0/leiningen-1.2.0-standalone.jar"
+
+# testing 
+alias w-r='watchr ~/.watchrs/watch-ruby.rb'
+alias w-c='watchr ~/.watchrs/watch-clojure.rb'
